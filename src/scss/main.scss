@@ -1,8 +1,12 @@
 @import './reset';
+@import './fonts';
+@import './colors';
 
 .App {
   min-height: 100vh;
   padding: 10px;
-  color: black;
-  //text-align: center;
+  color: $color-yellow;
+  text-align: center;
+  font-size: 50px;
+  font-family: $font-base;
 }
