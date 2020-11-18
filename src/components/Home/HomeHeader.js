@@ -5,6 +5,7 @@ import {
     Route,
     Link
 } from "react-router-dom";
+import Navigation from "./Navigation";
 
 const HomeHeader = () => {
     return(
@@ -13,6 +14,7 @@ const HomeHeader = () => {
                 <div className='header__img'></div>
             </div>
             <div className="header__info">
+                <Navigation/>
                 <div className="header__title">Zacznij Pomagać!</div>
                 <div className="header__title">Oddaj niechciane rzeczy w zaufane ręce</div>
                 <div className="header__decoration"></div>

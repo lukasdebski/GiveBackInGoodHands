@@ -1,0 +1,40 @@
+.nav__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 1.4rem;
+  .nav__log {
+    margin: 3rem 0 2rem;
+    .nav__login {
+      margin-right: 2rem;
+    }
+    .nav__register {
+      margin-right: 4rem;
+      border: 0.1rem solid $color-yellow;
+      box-shadow: 0 0 1px $color-yellow;
+      padding: .5rem 1rem;
+    }
+  }
+  .nav {
+    .nav__el {
+      margin: 0 1.5rem;
+    }
+    .el--start {
+      border: .1rem solid $color-gray;
+      box-shadow: 0 0 2px $color-gray;
+      padding: .3rem 1.2rem;
+    }
+    .el--end {
+      margin-right: 4rem;
+    }
+  }
+}
+
+.link--mod {
+  text-decoration: none;
+  color: $color-gray-dark;
+}
