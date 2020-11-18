@@ -1,9 +1,10 @@
 import React from 'react';
+import HomeHeader from "./HomeHeader";
 
 const Home = () => {
     return (
-        <div>
-            <p>dziala</p>
+        <div className='home container'>
+            <HomeHeader/>
         </div>
     )
 }
