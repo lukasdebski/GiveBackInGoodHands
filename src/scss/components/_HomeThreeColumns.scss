@@ -1,0 +1,27 @@
+.columns {
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $color-orange;
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    width: 20%;
+    .column__number {
+      font-size: 5rem;
+    }
+    .column__title {
+      font-size: 1.4rem;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    .column__text {
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  }
+}
