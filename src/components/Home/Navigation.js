@@ -17,10 +17,10 @@ const Navigation = () => {
                 </div>
                 <div className='nav'>
                     <Link to='/' className='nav__el link--mod el--start'>Start</Link>
-                    <ScrollLink className='nav__el'>O co chodzi?</ScrollLink>
-                    <ScrollLink className='nav__el'>O nas</ScrollLink>
-                    <ScrollLink className='nav__el'>Fundacje i Organizacje</ScrollLink>
-                    <ScrollLink className='nav__el el--end'>Kontakt</ScrollLink>
+                    <Link className='nav__el'>O co chodzi?</Link>
+                    <Link className='nav__el'>O nas</Link>
+                    <Link className='nav__el'>Fundacje i Organizacje</Link>
+                    <Link className='nav__el el--end'>Kontakt</Link>
                 </div>
             </div>
         </>

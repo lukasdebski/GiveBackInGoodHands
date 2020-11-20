@@ -24,17 +24,63 @@
 
   .steps__elements {
     width: 100%;
+    padding: 3rem 0;
     background-color: $color-light-gray;
     display: flex;
     justify-content: center;
+    align-items: center;
     .steps__el {
-      height: 10vh;
+      margin: 0 4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       text-align: center;
-      .el__icon1 {
+      .el__icon {
+        height: 10rem;
+        width: 10rem;
+      }
+      .icon--1 {
         background: url("../../assets/Icon-1.svg");
         background-repeat: no-repeat;
-        height: 10rem;
+        background-position: center;
+      }
+      .icon--2 {
+        background: url("../../assets/Icon-2.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .icon--3 {
+        background: url("../../assets/Icon-3.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .icon--4 {
+        background: url("../../assets/Icon-4.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .el__text {
+        font-size: 1.2rem;
+      }
+      .el--bor {
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: .2rem solid $color-gray;
       }
     }
+  }
+  .simple__btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 4rem;
+    font-size: 2.5rem;
+    border: .2rem solid $color-gray;
+    padding: .5rem 5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $color-gray;
   }
 }
