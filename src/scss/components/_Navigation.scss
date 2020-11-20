@@ -22,6 +22,8 @@
   .nav {
     .nav__el {
       margin: 0 1.5rem;
+      text-decoration: none;
+      color: $color-gray;
     }
     .el--start {
       border: .1rem solid $color-gray;

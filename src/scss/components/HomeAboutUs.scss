@@ -1,0 +1,34 @@
+.about {
+  display: flex;
+  .about__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 70vh;
+    .about__title {
+      font-size: 3rem;
+    }
+    .about__decoration {
+      background: url("../../assets/Decoration.svg");
+      width: 20rem;
+      height: 2.5rem;
+      background-position: center;
+      margin: 2rem 0;
+    }
+    .about__text {
+      width: 60%;
+      text-align: center;
+      font-size: 2rem;
+    }
+  }
+  .about__bg {
+    background-color: $color-light-gray;
+  }
+  .about__img {
+    background: url("../../assets/People.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+}
