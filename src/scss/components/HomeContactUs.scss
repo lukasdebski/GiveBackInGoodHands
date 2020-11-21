@@ -1,0 +1,112 @@
+.contact {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 7%;
+  position: relative;
+  background: url("../../assets/Background-Contact-Form.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  //&::before {
+  //  content: '';
+  //  position: absolute;
+  //  top: 0;
+  //  left: 0;
+  //  bottom: 0;
+  //  right: 0;
+  //  background-color: rgba(255,255,255, .5);
+  //}
+
+  .contact__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    //border: 1px solid black;
+    z-index: 1;
+
+    .contact__title {
+      font-size: 3.5rem;
+      color: $color-gray-dark;
+    }
+
+    .contact__decoration {
+      background: url("../../assets/Decoration.svg");
+      width: 18rem;
+      height: 2rem;
+      background-size: cover;
+      background-position: center;
+      margin: 2rem 0 4rem;
+    }
+
+    .contact__form {
+      .contact__inputs {
+        display: flex;
+        justify-content: space-between;
+
+        .contact__label {
+          width: 48%;
+
+          .contact__text {
+            font-size: 1.6rem;
+            font-weight: bold;
+          }
+
+          .contact__el {
+            margin: .8rem 0 2rem;
+            border: none;
+          }
+
+          .el--in {
+            border-bottom: 2px solid $color-gray;
+          }
+        }
+      }
+
+      .contact__labelText {
+        .contact__text {
+          font-size: 1.6rem;
+          font-weight: bold;
+        }
+
+        .contact__area {
+          margin: 1rem 0;
+          border: none;
+          border-bottom: 2px solid $color-gray;
+        }
+      }
+
+      .contact__btn {
+        display: flex;
+        justify-content: flex-end;
+        .btn__sub {
+          border: 2px solid $color-light-gray;
+          padding: .5rem 2rem;
+          background-color: #fff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 1rem 0;
+  .footer__text {
+    font-weight: bolder;
+  }
+  .icons {
+    .facebook {
+      background: url("../../assets/Facebook.svg");
+      background-position: center;
+      height: 3rem;
+      width: 3rem;
+    }
+  }
+}
