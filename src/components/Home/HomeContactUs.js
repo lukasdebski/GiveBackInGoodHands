@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Footer from "./Footer";
 
 const HomeContactUs = () => {
 
@@ -33,17 +34,18 @@ const HomeContactUs = () => {
                         <div className="contact__inputs">
                             <label className='contact__label'>
                                 <p className='contact__text'>Wpisz swoje imię</p>
-                                <input className='contact__el el--in' type="text" placeholder='imię' onChange={handleName}/>
+                                <input className='contact__el el--in' type="text" placeholder='imię' value={name} onChange={handleName}/>
                             </label>
                             <label className='contact__label'>
                                 <p className='contact__text'>Wpisz swój e-mail</p>
                                 <input className='contact__el el--in' type="text"
-                                       placeholder='xzcv@zxc.zx' onChange={handleEmail}/>
+                                       placeholder='xzcv@zxc.zx' value={email} onChange={handleEmail}/>
                             </label>
                         </div>
                         <label className='contact__labelText'>
                             <p className='contact__text'>Wpisz swoją wiadomość</p>
                             <textarea className='contact__area'
+                                      value={message}
                                       onChange={handleMessage}
                                       placeholder='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'></textarea>
                         </label>
@@ -51,14 +53,8 @@ const HomeContactUs = () => {
                             <button className='btn__sub' type="submit">Wyślij</button>
                         </div>
                     </form>
+                    <Footer/>
                 </div>
-                {/*<footer className="footer">*/}
-                {/*    <span className='footer__text'>CopyRight by CodersLab</span>*/}
-                {/*    <div className="icons">*/}
-                {/*        <span className="facebook"></span>*/}
-                {/*        <span className="instagram"></span>*/}
-                {/*    </div>*/}
-                {/*</footer>*/}
             </section>
         </>
     )

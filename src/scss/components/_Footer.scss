@@ -1,0 +1,29 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5vh;
+  width: 100%;
+
+  .footer__elements {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .footer__text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-weight: bold;
+    }
+    .icons__el {
+      margin: 0 2rem;
+    }
+
+    .el--icon {
+      margin-right: 10rem;
+    }
+  }
+
+}

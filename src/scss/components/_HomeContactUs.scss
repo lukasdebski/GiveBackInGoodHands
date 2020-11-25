@@ -41,6 +41,7 @@
     }
 
     .contact__form {
+      width: 100%;
       .contact__inputs {
         display: flex;
         justify-content: space-between;
@@ -49,17 +50,21 @@
           width: 48%;
 
           .contact__text {
+            width: 100%;
             font-size: 1.6rem;
             font-weight: bold;
           }
 
           .contact__el {
+            width: 100%;
+            line-height: 2.4rem;
             margin: .8rem 0 2rem;
             border: none;
           }
 
           .el--in {
             border-bottom: 2px solid $color-gray;
+            opacity: .7;
           }
         }
       }
@@ -77,6 +82,7 @@
           margin: 1rem 0;
           border: none;
           border-bottom: 2px solid $color-gray;
+          opacity: .7;
         }
       }
 
@@ -93,23 +99,3 @@
     }
   }
 }
-
-//.footer {
-//  width: 100%;
-//  position: absolute;
-//  left: 0;
-//  bottom: 0;
-//  text-align: center;
-//  padding: 1rem 0;
-//  .footer__text {
-//    font-weight: bolder;
-//  }
-//  .icons {
-//    .facebook {
-//      background: url("../../assets/Facebook.svg");
-//      background-position: center;
-//      height: 3rem;
-//      width: 3rem;
-//    }
-//  }
-//}
