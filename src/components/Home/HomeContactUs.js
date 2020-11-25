@@ -26,7 +26,7 @@ const HomeContactUs = () => {
 
     return (
         <>
-            <section className="contact">
+            <section className="contact" id='contactUs'>
                 <div className="contact__box">
                     <p className='contact__title'>Skontaktuj się z nami</p>
                     <div className="contact__decoration"></div>

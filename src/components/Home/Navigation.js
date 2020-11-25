@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
-import {Link as ScrollLink} from 'react-scroll';
+import {Link} from 'react-scroll';
 
 const Navigation = () => {
     return (
@@ -17,10 +11,10 @@ const Navigation = () => {
                 </div>
                 <div className='nav'>
                     <Link to='/' className='nav__el link--mod el--start'>Start</Link>
-                    <Link className='nav__el'>O co chodzi?</Link>
-                    <Link className='nav__el'>O nas</Link>
-                    <Link className='nav__el'>Fundacje i Organizacje</Link>
-                    <Link className='nav__el el--end'>Kontakt</Link>
+                    <Link to='simpleSteps' smooth={true} duration={850} className='nav__el'>O co chodzi?</Link>
+                    <Link to='aboutUs' smooth={true} duration={850} className='nav__el'>O nas</Link>
+                    <Link to='fundation' smooth={true} duration={850} className='nav__el'>Fundacje i Organizacje</Link>
+                    <Link to='contactUs' smooth={true} duration={850} className='nav__el el--end'>Kontakt</Link>
                 </div>
             </div>
         </>

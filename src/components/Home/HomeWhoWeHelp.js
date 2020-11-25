@@ -3,7 +3,7 @@ import React from 'react';
 const HomeWhoWeHelp = () => {
     return(
         <>
-        <section className="help">
+        <section className="help" id='fundation'>
             <p>who we help</p>
         </section>
         </>

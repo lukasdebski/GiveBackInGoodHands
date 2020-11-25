@@ -10,7 +10,7 @@ import {Link as ScrollLink} from 'react-scroll';
 const HomeSimpleSteps = () => {
     return (
         <>
-            <section className="steps">
+            <section className="steps" id='simpleSteps'>
                 <div className="steps__header">
                     <h1 className='steps__title'>Wystarczą 4 proste kroki</h1>
                     <div className="steps__decoration"></div>
