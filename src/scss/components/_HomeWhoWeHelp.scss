@@ -1,7 +1,18 @@
 .help {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  //justify-content: center;
   height: 100vh;
-  font-size: 4rem;
+  text-align: center;
+
+  .help__title {
+    font-size: 3.5rem;
+    font-weight: normal;
+  }
+
+  .help__decoration {
+    margin: 2rem 0;
+  }
+
+
 }
